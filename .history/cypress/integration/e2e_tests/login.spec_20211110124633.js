@@ -10,7 +10,7 @@ describe('Login / Logout Test', () => {
         // cy.get('#user_login').type('invalid username')
         // cy.get('#user_password').type('invalid password')
         // cy.contains('Sign in').click()
-        cy.login("invalid username", "invalid password")
+        cy.login("invalid username")
     })
 
     it('should display error message', () => {

@@ -6,11 +6,10 @@ describe('Login / Logout Test', () => {
     })
 
     it('should try to login with invalid data', () => {
-        // cy.get('#login_form').should('be.visible')
-        // cy.get('#user_login').type('invalid username')
-        // cy.get('#user_password').type('invalid password')
-        // cy.contains('Sign in').click()
-        cy.login("invalid username", "invalid password")
+        cy.get('#login_form').should('be.visible')
+        cy.get('#user_login').type('invalid username')
+        cy.get('#user_password').type('invalid password')
+        cy.contains('Sign in').click()
     })
 
     it('should display error message', () => {

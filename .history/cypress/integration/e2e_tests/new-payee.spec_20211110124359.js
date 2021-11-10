@@ -10,7 +10,6 @@ describe('New Payee Test', () => {
         // cy.get('#user_password').type(password)
         // cy.get('#user_remember_me').click()
         // cy.contains('Sign in').click()
-        cy.login(username, password)
         })
     })
 
