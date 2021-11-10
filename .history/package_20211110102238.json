@@ -1,0 +1,19 @@
+{
+  "name": "cypress-e2e",
+  "version": "1.0.0",
+  "description": "end-to-end testing with cypress",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cypress",
+    "e2e"
+  ],
+  "author": "André Bergan",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^8.7.0",
+    "prettier": "^2.4.1"
+  }
+}
